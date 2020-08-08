@@ -1,5 +1,5 @@
 {
-  "name": "conveyorbelt",
+  "name": "iterium",
   "version": "0.1.0",
   "author": "Philip Ahlberg <philipahlberg@users.noreply.github.com>",
   "description": "An iterator utility library",
@@ -8,13 +8,13 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "keywords": [],
-  "homepage": "https://github.com/philipahlberg/conveyorbelt#readme",
+  "homepage": "https://github.com/philipahlberg/iterium#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philipahlberg/conveyorbelt.git"
+    "url": "git+https://github.com/philipahlberg/iterium.git"
   },
   "bugs": {
-    "url": "https://github.com/philipahlberg/conveyorbelt/issues"
+    "url": "https://github.com/philipahlberg/iterium/issues"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
