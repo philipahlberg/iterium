@@ -49,28 +49,28 @@
   dependencies:
     "@types/node" "*"
 
-"@windtunnel/assert@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@windtunnel/assert/-/assert-0.4.0.tgz#c2b43c52eb42fa4f3d7197a58ec44ef2a75a1ec1"
-  integrity sha512-pzcFSfarme3nj2+jo5N+pwPmJ12b1umT/7/NAziKCaoUgmSbywMRx7R9UHa1P002zWYQnBf+DpnpJ+omWcz5lg==
+"@windtunnel/assert@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@windtunnel/assert/-/assert-0.5.0.tgz#885adec67c77bfd67bcf158177f305cbe0b3c8d6"
+  integrity sha512-OigpFaFV0F9M7YV/zQLClud9wOxPOdA9c003wyq/ASp7ASNs6mrXXZQIuxjPFTSROv7QxFacPa3j8WuuqMdDug==
 
-"@windtunnel/cli@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@windtunnel/cli/-/cli-0.4.0.tgz#9e421cfc1c78015136293dd29a40c6e7a4390253"
-  integrity sha512-5iqHhv+/yaTDGGIxfXm/JIqhIAxBrUsXcpGael8Dg96roBalcoo/6eSYUQgyoyh4Y3t3lhlj+O6eZBD8kZ8/7Q==
+"@windtunnel/cli@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@windtunnel/cli/-/cli-0.5.0.tgz#2220370de42679127eefb7e4abfb20694430c19f"
+  integrity sha512-I/vWdPnvLTP1/vIAjA83Yn64OIgrrBKheD+GoronqrlfeLTxzLWLOmESitJlx0l324IG05DxXz10SsHFU+4iBA==
   dependencies:
-    "@windtunnel/colors" "0.4.0"
-    "@windtunnel/core" "0.4.0"
+    "@windtunnel/colors" "0.5.0"
+    "@windtunnel/core" "0.5.0"
 
-"@windtunnel/colors@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@windtunnel/colors/-/colors-0.4.0.tgz#d0d86744096605f462f52185592d5fe8b72fb076"
-  integrity sha512-KmfeXryvA5ISahFP3983Mvu/hkjyS8mL0DsXirK35qSs5CiQG8YzjxE9nrz9KK1wRPhg0QynjO+csrzHoFl9TA==
+"@windtunnel/colors@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@windtunnel/colors/-/colors-0.5.0.tgz#5f5dd46a5207fada5392074801c58b387cd31a99"
+  integrity sha512-5b/RHjKij9SKVey+GDyW3CDw2WTwvRxzGJC0EzjiOlFXeLTgdqiYlQz9JZTpLf6yO3PQKIgCg+QLBI2onJx7fQ==
 
-"@windtunnel/core@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@windtunnel/core/-/core-0.4.0.tgz#c709fd4e308f7fcb77fc38bfc691955d6c6556d1"
-  integrity sha512-rZqXZC+vM/X5QznJriNQYU03I+sX8afMKZ1I3PFzSYrxmsrdxLvgdDHTynHN0sMdDwudmxrgf7TU1o25CD/otw==
+"@windtunnel/core@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@windtunnel/core/-/core-0.5.0.tgz#25c07fe10df474dbddea7e3821a66aa5dd3e768e"
+  integrity sha512-NmNkE/CnP+fOvu3oyDLLmMwRFUQ6Lj8mO7VTdzSMQohOTgDyeOpG8/CmOtAeiFbTtWsmRRyXAZWFzLDbseRQhQ==
   dependencies:
     nurburgring "^0.1.1"
 
@@ -126,17 +126,17 @@ resolve@^1.14.1, resolve@^1.17.0:
   dependencies:
     path-parse "^1.0.6"
 
-rollup@^2.23.0:
-  version "2.23.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.23.0.tgz#b7ab1fee0c0e60132fd0553c4df1e9cdacfada9d"
-  integrity sha512-vLNmZFUGVwrnqNAJ/BvuLk1MtWzu4IuoqsH9UWK5AIdO3rt8/CSiJNvPvCIvfzrbNsqKbNzPAG1V2O4eTe2XZg==
+rollup@^2.23.1:
+  version "2.23.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.23.1.tgz#d458d28386dc7660c2e8a4978bea6f9494046c20"
+  integrity sha512-Heyl885+lyN/giQwxA8AYT2GY3U+gOlTqVLrMQYno8Z1X9lAOpfXPiKiZCyPc25e9BLJM3Zlh957dpTlO4pa8A==
   optionalDependencies:
     fsevents "~2.1.2"
 
-tslib@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.0.tgz#18d13fc2dce04051e20f074cc8387fd8089ce4f3"
-  integrity sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g==
+tslib@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
+  integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
 
 typescript@^3.9.7:
   version "3.9.7"
